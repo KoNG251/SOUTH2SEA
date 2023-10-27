@@ -87,37 +87,70 @@
                 <div class="container">
                     <div class="row justify-content-center g-0">
                         <div class="col-2 text-center">
-                            <div class="faq-box-head">
+                            <button class="faq-box-head" value="1">
                                 <i class="fi fi-rr-bus-alt"></i><br><p>ทัวร์</p>
-                            </div>
+                            </button>
                         </div>
                         <div class="col-2 text-center">
-                            <div class="faq-box-head ant-bg">
+                            <button class="faq-box-head ant-bg" value="2">
                                 <i class="fi fi-rr-user"></i><br><p>สมาชิก</p>
-                            </div>
+                            </button>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12">
+                        <div class="col-12" id="fetchFAQs">
                             <div class="faq-main pe-5 ps-5 pt-5">
                                 <div class="container pe-5 ps-5">
                                     <div class="row">
                                         <div class="col-12 mb-5">
                                             <h2 class="faq-title">การจอง</h2>
                                             <div class="boxfaq mb-3 d-flex align-items-center">ฉันจะจองทัวร์ได้อย่างไร?</div>
+                                            <div class="faq-content mb-3" id="faq-booking">
+                                                "เพื่อจองทัวร์ได้อย่างง่าย คุณสามารถทำตามขั้นตอนต่อไปนี้:<br>
+                                                1.เข้าสู่เว็บไซต์หรือแอปพลิเคชันที่เกี่ยวข้องกับทัวร์ที่คุณสนใจ.<br>
+                                                2.ค้นหาทัวร์ที่คุณต้องการจอง.<br>
+                                                3.เลือกวันที่และเวลาที่คุณต้องการ.<br>
+                                                4.กรอกข้อมูลการจองและข้อมูลการติดต่อ.<br>
+                                                5.เลือกวิธีการชำระเงินและป้อนข้อมูลการชำระเงิน.<br>
+                                                6.ตรวจสอบข้อมูลการจองอีกครั้งและกดปุ่ม 'ยืนยันการจอง'.<br>
+                                                7.รอรับอีเมลยืนยันการจองและรายละเอียดเพิ่มเติมเกี่ยวกับทัวร์ของคุณ.<br>
+                                            </div>
                                             <div class="boxfaq mb-3 d-flex align-items-center">ฉันสามารถเลือกทัวร์ที่ตรงกับงบประมาณของฉันได้อย่างไร?</div>
+                                            <div class="faq-content mb-3" id="faq-booking">
+                                                ท่านสามารถกำหนดเกณฑ์ราคาเองได้ในขั้นตอนค้นหา
+                                            </div>
                                             <div class="boxfaq d-flex align-items-center">ฉันสามารถยกเลิกหรือเปลี่ยนแปลงการจองทัวร์ได้อย่างไร?</div>
+                                            <div class="faq-content mt-3" id="faq-booking">
+                                                ติดต่อบริษัททัวร์หรือผู้จัดทัวร์: หากคุณต้องการยกเลิกหรือเปลี่ยนแปลงการจอง, ติดต่อบริษัททัวร์หรือผู้จัดทัวร์โดยใช้ข้อมูลติดต่อที่ระบุในเว็บไซต์หรือแอปพลิเคชัน.
+                                            </div>
                                         </div>
                                         <div class="col-12 mb-5">
                                             <h2 class="faq-title">คิวทัวร์</h2>
                                             <div class="boxfaq mb-3 d-flex align-items-center">มีข้อดีในการจองคิวทัวร์ล่วงหน้าอย่างไร?</div>
+                                            <div class="faq-content mb-3" id="faq-booking">
+                                                หาราคาที่ดี: บางครั้งการจองล่วงหน้าอาจช่วยให้คุณได้รับข้อเสนอและส่วนลดที่ดีกว่า เนื่องจากบริษัททัวร์อาจมีโปรโมชั่นหรือส่วนลดสำหรับการจองล่วงหน้า.<br>
+                                                รองรับที่นั่งหรือสิทธิ์พิเศษ: การจองล่วงหน้าช่วยให้คุณสามารถเลือกที่นั่งหรือสิทธิ์พิเศษที่คุณต้องการ เช่น ที่นั่งติดหน้า, ที่นั่งพิเศษ, หรือกิจกรรมพิเศษเป็นต้น.<br>
+                                                ควบคุมเวลาตัวเอง: คุณสามารถจัดการเวลาของตัวเองและการวางแผนการเดินทางได้อย่างคุ้มค่า.
+                                            </div>
                                             <div class="boxfaq mb-3 d-flex align-items-center">ฉันสามารถยกเลิกคิวทัวร์หรือเปลี่ยนเวลาคิวได้อย่างไร?</div>
+                                            <div class="faq-content mb-3" id="faq-booking">
+                                                ข้อกำหนดและเงื่อนไขขึ้นอยู่กับโปรโมชั่นนั้นๆ
+                                            </div>
                                             <div class="boxfaq mb-3 d-flex align-items-center">ฉันจะต้องรอนานเท่าไหร่ก่อนที่จะเข้าคิวทัวร์?</div>
+                                            <div class="faq-content mb-3" id="faq-booking">
+                                                ข้อกำหนดและเงื่อนไขขึ้นอยู่กับโปรโมชั่นนั้นๆ
+                                            </div>
                                             <div class="boxfaq d-flex align-items-center">มีคิวทัวร์แบบกลุ่มหรือคิวทัวร์ส่วนตัวให้เลือก?</div>
+                                            <div class="faq-content mt-3" id="faq-booking">
+                                                แน่นอนว่าเรามีทัวร์ให้เลือกทั้งแบบกลุ่ม รวมถึงการจองคิวแบบส่วนตัวให้ท่านเลือกอย่างแน่นอน
+                                            </div>
                                         </div>
                                         <div class="col-12 mb-5">
                                             <h2 class="faq-title">ข้อเสนอสุดพิเศษ</h2>
                                             <div class="boxfaq mb-3 d-flex align-items-center">มีเงื่อนไขหรือข้อกำหนดเฉพาะที่ต้องปฏิบัติตามในการใช้ข้อเสนอพิเศษหรือไม่?</div>
+                                            <div class="faq-content" id="faq-booking">
+                                                ข้อกำหนดและเงื่อนไขขึ้นอยู่กับโปรโมชั่นนั้นๆ
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -341,6 +374,22 @@
         </div>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
+<script>
+
+    const faqElements = document.querySelectorAll('.boxfaq');
+    faqElements.forEach(function(faqElement, index) {
+    const faqContent = document.querySelectorAll('.faq-content')[index];
+
+    faqElement.addEventListener('click', function() {
+        if (faqContent.style.display === 'block') {
+        faqContent.style.display = 'none';
+        } else {
+        faqContent.style.display = 'block';
+        }
+    });
+});
+</script>
 </html>
