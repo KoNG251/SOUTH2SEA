@@ -432,7 +432,7 @@
 }
 
 .despic-1{
-    background-image: url(/picture/feature/krabi.png);
+    background-image: url(../picture/feature/krabi.png);
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -441,7 +441,7 @@
 }
 
 .despic-2{
-    background-image: url(/picture/feature/phuket.png);
+    background-image: url(../picture/feature/phuket.png);
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -450,7 +450,7 @@
 }
 
 .despic-3{
-    background-image: url(/picture/feature/surat.png);
+    background-image: url(../picture/feature/surat.png);
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -459,7 +459,7 @@
 }
 
 .despic-4{
-    background-image: url(/picture/feature/songkla.png);
+    background-image: url(../picture/feature/songkla.png);
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -468,7 +468,7 @@
 }
 
 .despic-5{
-    background-image: url(/picture/feature/phand\ nga.png);
+    background-image: url(../picture/feature/phand\ nga.png);
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -541,7 +541,7 @@
     transition: 0.5s;
 }
 .deal1{
-    background-image: url(/picture/feature/mai\ morn.png);
+    background-image: url(../picture/feature/mai\ morn.png);
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -549,7 +549,7 @@
     background-position: center;
 }
 .deal2{
-    background-image: url(/picture/feature/blue\ carina.png);
+    background-image: url(../picture/feature/blue\ carina.png);
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -557,7 +557,7 @@
     background-position: center;
 }
 .deal3{
-    background-image: url(/picture/feature/the\ oceanic.png);
+    background-image: url(../picture/feature/the\ oceanic.png);
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -935,7 +935,7 @@ footer{
         color: #ffffff;
     }
     .despic-1{
-        background-image: url(/picture/feature/krabi.png);
+        background-image: url(../picture/feature/krabi.png);
         width: 100%;
         height: 100%;
         background-size: cover;
@@ -944,7 +944,7 @@ footer{
     }
     
     .despic-2{
-        background-image: url(/picture/feature/phuket.png);
+        background-image: url(../picture/feature/phuket.png);
         width: 100%;
         height: 100%;
         background-size: cover;
@@ -953,7 +953,7 @@ footer{
     }
     
     .despic-3{
-        background-image: url(/picture/feature/surat.png);
+        background-image: url(../picture/feature/surat.png);
         width: 100%;
         height: 100%;
         background-size: cover;
@@ -992,7 +992,7 @@ footer{
         color: #ffffff;
     }
     .deal1{
-        background-image: url(/picture/feature/mai\ morn.png);
+        background-image: url(../picture/feature/mai\ morn.png);
         width: 100%;
         height: 100%;
         background-size: cover;
@@ -1000,7 +1000,7 @@ footer{
         background-position: center;
     }
     .deal2{
-        background-image: url(/picture/feature/blue\ carina.png);
+        background-image: url(../picture/feature/blue\ carina.png);
         width: 100%;
         height: 100%;
         background-size: cover;
